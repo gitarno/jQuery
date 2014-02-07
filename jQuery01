@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+    <!--
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    -->
+    <script src="jquery-1.11.0.js"> </script>
+    <script src="myQuery.js"> </script>
+    
+    <meta charset="utf-8">
+    <title>jQuery 01</title>
+</head>
+
+<body>
+	
+    <p> 
+    	Esse vai ser apenas um tag ...
+    </p>
+    
+    <p id="unico"> 
+    	Esse possui um ID ...
+    </p>
+    
+</body>
+</html>
