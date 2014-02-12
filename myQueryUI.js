@@ -1,5 +1,6 @@
 // JavaScript Document
-
+// Targettrust
+// Apenas editandop para verificar no github
 var dadosDB = ["Arno","Daniel", "Samuel", "Vinicius", "Gianfranco", "Raphael"];
 
 function criarlista($onde){
