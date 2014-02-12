@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>jQuery Mobile</title>
+  <script src="jquery-1.11.0.js"> </script>
+  <script src="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.js"> </script>
+  <link href="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.css" rel="stylesheet">
+  <meta name=”viewport” content=”width=device-width,initial-scale=1” />
+  </head>
+  
+  
+
+<body>
+
+<div data-role="page" data-title="1 PAGINA" data-theme="a" id="pagina1">
+	<div data-role="content">	conteudo A 
+	
+	    <a href="#pagina2" data-role="button"> PAGINA2 </a>
+        <button> botao </button>
+        <input type="button">
+	 </div>
+</div>
+<div data-role="page" data-title="2 PAGINA" data-theme="b" id="pagina2">
+	conteudo B 
+    <a href="#pagina3" data-role="button"> PAGINA3 </a>
+</div>
+
+<div data-role="page" data-title="3 PAGINA" data-theme="e" id="pagina3">
+	conteudo B 
+    <a href="#pagina4" data-role="button"> PAGINA4 </a>
+</div>
+<div data-role="page" data-title="4  PAGINA" data-theme="f" id="pagina4">
+	conteudo B 
+    <a href="#pagina1" data-role="button"> PAGINA1 </a>
+</div>
+
+</body>
+</html>
