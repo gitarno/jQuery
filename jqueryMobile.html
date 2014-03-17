@@ -15,15 +15,59 @@
 <body>
 
 <div data-role="page" data-title="1 PAGINA" data-theme="a" id="pagina1">
-	<div data-role="content">	conteudo A 
+	<header data-role="header" data-position="fixed" data-position="inline">   	
+   
+        <a onclick="javascript:window.back();" data-icon="back"> voltar </a>
+        <h1> PAgina 1 </h1>
+       
+        
+        
+        <div data-role="navbar">
+            <ul>
+                <li><a href="jqueryUI.html"  data-transition="pop"> 2 </a></li>
+                <li><a href="#pagina3"> 3 </a></li>
+                <li><a href="#pagina4"> 4 </a></li>
+            </ul>
+        </div><!-- /navbar -->
+        
+    </header>
 	
-	    <a href="#pagina2" data-role="button"> PAGINA2 </a>
-        <button> botao </button>
-        <input type="button">
-	 </div>
+  <div data-role="content">	conteudo A <br>
+        <form>
+            <div data-role="controlgroup" data-type="horizontal" data-mini="true">
+                <a href="#pagina2" data-icon="forward" data-iconpos="right"> Avancar</a>
+                <a href="#pagina2" data-icon="forward" data-iconpos="right"> Avancar</a>            
+        </div>
+        <input type="tel" placeholder="Fone"> 
+        <input type="text" placeholder="nome"> 
+		
+        <input type="range" max="100" min="0" value="2" >		
+        
+         <div data-role="rangeslider" data-mini="true">
+            <input type="range" min="0" max="100" value="40">
+            <input type="range" min="0" max="100" value="80">
+
+        </div>
+        
+        </form>
+	    <a href="#pagina2" data-role="button" data-theme="b"  data-inline="true"> PAGINA2 </a>
+        <button data-icon="delete" data-iconpos="left" data-inline="true"> botao </button>
+        <input type="button" value="botao" data-inline="true">
+        <p>Para não ficar muito cansativo vou agora ensinar a fazer um belo miojo, ferva trezentos mls de água em uma panela, quando estiver fervendo coloque o miojo, espere cozinhar por três minutos, retire o miojo do fogão, misture bem e sirva. </p>
+        <p>Frite bacon em fogo alto, em sua própria gordura, por dois minutos. Em outra panela, coloque quatrocentos e cinquenta ml de água e leve ao fogo alto até ferver. Junte o macarrão e deixe cozinhar. Quando estiver pronto, misture com o bacon e sirva quente.</p>
+        <p>Ferva meio litro de água em uma panela e coloque o miojo, deixando cozinhar um pouco. Retire e frite no óleo e alho até ficar douradinho. Misture creme de leite, queijo ralado, requeijão e champignon. O miojo vai ficar molhadinho, com aspecto piamontese. </p>
+        
+    </div>
+     <footer data-role="footer" data-position="fixed"> 
+    	<h1> PAgina 1 </h1>
+    </footer>
+     
 </div>
-<div data-role="page" data-title="2 PAGINA" data-theme="b" id="pagina2">
-	conteudo B 
+<div data-role="page" data-title="2 PAGINA" data-theme="b" id="pagina2" data-dialog="true">
+	<DIV data-role="header"> 
+    	<h1> PAgina 2  </h1>
+    </div>
+    conteudo B 
     <a href="#pagina3" data-role="button"> PAGINA3 </a>
 </div>
 
